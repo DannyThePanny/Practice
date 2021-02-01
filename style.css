@@ -20,6 +20,9 @@
     position: relative;
 
 }
+body{
+    background-color: black;
+}
 .menu-btn span{
     /* background-color: burlywood; */
     position: absolute;
@@ -64,9 +67,9 @@
     padding-left: 0;
     padding-right: 0;
 }
-.row-second{
+/* .row-second{
     background-color: black;
-}
+} */
 .header-about{
     margin-left: 20px;
     margin-right: 20px;
