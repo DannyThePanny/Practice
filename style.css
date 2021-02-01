@@ -1,0 +1,132 @@
+@font-face{
+    font-family: SenRegular;
+    src: url(../Fonts/Sen-Regular.ttf);
+}
+.block-nav-left{
+    background-color: black;
+}
+
+.block-nav-right{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+}
+.menu-btn{
+    display: block;
+
+    width: 24px;
+    height: 24px;
+
+    position: relative;
+
+}
+.menu-btn span{
+    /* background-color: burlywood; */
+    position: absolute;
+    width: 18px;
+    left: 50%; margin-left  : -9px;
+    height: 3px;
+    top: 25%; margin-top: -2px;
+    background-color: #c4c4c4;
+}
+
+.menu-btn span::after{
+    content:'';
+    transform: translateY(5px);
+    position: absolute;
+    width: 13px;
+    left: 50%; margin-left  : -4px;
+    height: 3px;
+    top: 50%; margin-top: -2px;
+    background-color: #c4c4c4;
+}
+.frame23{
+    padding: 0;
+    background-image: url('../img/LolaT.jpg');
+    height: 20rem;
+    background-size: cover;
+}
+.lola{
+    padding: 0;
+    width: 360px;
+    height: 360px;
+    left: 0px;
+    top: 0px;
+    justify-content: center;
+    left: 100%;
+}
+.lolaT{
+    background-color: black;
+    color: white;
+}
+.block-about{
+    width: 320px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.row-second{
+    background-color: black;
+}
+.header-about{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 48px;
+    font-family: SenRegular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    color: white;
+
+    display: flex;
+    align-items: center;
+}
+.paragraph-about-me{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 16px;
+    font-family: SenRegular;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #fff;
+}
+.fact-number{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 16px;
+    font-family: SenRegular;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 117px;
+    line-height: 150%;
+
+    color: gray;
+}
+.facts-about-me{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 16px;
+    font-family: SenRegular;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 150%;
+
+    color: lightgreen;
+
+}
+/* span{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 48px;
+    font-family: SemRegular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 150%;
+    color: gray;
+
+} */
